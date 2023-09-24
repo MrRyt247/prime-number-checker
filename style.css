@@ -42,20 +42,22 @@ input {
 }
 
 .banner {
-    width: 80%;
-    height: 40px;
-    background-color: red;
     position: relative;
-    right: 5px;
-    bottom: 20px;
-}
-
-h2 {
+    left: -40px;
+    top: -15px;
+    height: 50px;
+    width: 200px;
+    padding: .8rem 0;
+    padding-left: 2rem;
+    background-color: red;
     color: white;
-    font: 2.4rem 400 small-caps;
-    font-size: 2.4rem;
-    font-weight: 400;
-}
+    font-size: 1.25rem;
+    text-shadow: 1px 1.5px 3px #007;
+    box-shadow: 2px 2px 4px #0006;
+    font-variant: small-caps;
+    }
+
+
 
 .container p {
     font-family: monospace;
