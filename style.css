@@ -104,6 +104,7 @@ button:hover {
 
 .shake {
     animation: shake 1s;
+    color: red;
 }
 
 @keyframes shake {
