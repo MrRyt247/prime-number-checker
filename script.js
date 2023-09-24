@@ -17,8 +17,8 @@ function check() {
     if (x == null || x <= 0 || x - parseInt(x) !== 0) {
       /* label.style.color = "red"; */
       label.innerText = "Enter a counting number here:";
-      label.ClassList.add("shake");
-      label.ClassList.remove("shake");
+      label.classList.remove("shake");
+      label.classList.add("shake");
       result.innerText = "";
     } else if (numOfDivisor === undefined) {
       label.style.color = "black";
