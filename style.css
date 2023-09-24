@@ -35,7 +35,7 @@ body {
 .banner {
     position: relative;
     left: -1.5rem;
-    top: -1rem;
+    top: -2rem;
     height: 40px;
     width: calc(100% - 2.5rem);
     padding-left: 2rem;
@@ -96,6 +96,7 @@ button:hover {
 #footer {
     font-family: monospace;
     font-size: 9px;
+    flex-grow: -1;
 }
 
 #footer span {
