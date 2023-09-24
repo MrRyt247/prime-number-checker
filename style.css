@@ -41,16 +41,20 @@ input {
     font-size: 25px;
 }
 
+.banner {
+    width: 80%;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+}
+
 h2 {
-    color: transparent;
-    background: linear-gradient(135deg, #d00, #a00 25% 75%, #d00);
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: white;
+    font: 2.4rem 400 small-caps;
     font-size: 2.4rem;
     font-weight: 400;
-    -webkit-text-stroke: .7px black;
-    letter-spacing: -1.5px;
 }
 
 .container p {

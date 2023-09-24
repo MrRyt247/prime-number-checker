@@ -2,7 +2,6 @@ function check() {
   const x = document.getElementById("input").value;
   const result = document.getElementById("log");
   const label = document.querySelector("label");
-  var isFilled = false;
 
   prime = (a) => {
     var divisor = 0;
