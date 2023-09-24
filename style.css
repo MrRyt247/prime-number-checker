@@ -46,6 +46,11 @@ body {
     font-variant: small-caps;
 }
 
+label {
+    font-size: .95rem;
+    animation: shake 2s;
+}
+
 input {
     color: black;
     outline: transparent;
@@ -96,7 +101,6 @@ button:hover {
 }
 
 .shake {
-    position: relative;
     animation: shake 2s;
 }
 
