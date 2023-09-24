@@ -58,7 +58,7 @@ input {
     }
 
 
-
+ 
 .container p {
     font-family: monospace;
     color: red;
@@ -75,4 +75,13 @@ button {
     font-family: cursive;
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+#footer {
+    font-family: monospace;
+    font-size: 9px;
+}
+
+#footer span {
+    color: red;
 }
