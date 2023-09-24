@@ -1,7 +1,6 @@
 function check() {
-  const inp = document.getElementById("textbox");
-  const x = document.getElementById("textbox").value;
-  const result = document.getElementById("result");
+  const x = document.getElementById("input").value;
+  const result = document.getElementById("log");
   const label = document.querySelector("label");
   var isFilled = false;
 
