@@ -3,6 +3,13 @@ function check() {
   const result = document.getElementById("log");
   const label = document.querySelector("label");
 
+  function shake() {
+      label.style.setProperty("animation", "shake 1s ease-in-out alternate");
+      setTimeout(() => {
+        label.style.removeProperty('animation');
+      }, 1005);
+  }
+
   prime = (a) => {
     var divisor = 0;
     var numOfDivisor;
@@ -18,7 +25,7 @@ function check() {
       /* label.style.color = "red"; */
       label.innerText = "Enter a counting number here:";
       label.classList.remove("shake");
-      label.classList.add("shake");
+      shake();
       result.innerText = "";
     } else if (numOfDivisor === undefined) {
       label.style.color = "black";
