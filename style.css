@@ -33,11 +33,10 @@ body {
 
 .banner {
     position: relative;
-    left: -40px;
-    top: -15px;
-    height: 50px;
+    left: -5px;
+    top: -5px;
+    height: 40px;
     width: calc(100% - 1rem);
-    padding: .8rem 1rem;
     padding-left: 2rem;
     background-color: red;
     color: white;
@@ -49,15 +48,19 @@ body {
 
 input {
     color: black;
-    background-color: white;
     outline: transparent;
     border: none;
     border-bottom: solid 1px black;
-    padding-bottom: 5px;
+    padding: 2px;
     width: 170px;
     height: 25px;
     text-align: center;
     font-size: 25px;
+    transition: all 80ms ease-out;
+}
+
+input:active, input:ficus {
+    border-bottom: solid 2px;
 }
 
 .container p {
@@ -69,7 +72,7 @@ input {
 button {
     border: solid 1px transparent;
     padding: .1rem;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
     background-color: red;
     cursor: pointer;
