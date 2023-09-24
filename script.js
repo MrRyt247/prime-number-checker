@@ -24,8 +24,8 @@ function check() {
     if (x == null || x <= 0 || x - parseInt(x) !== 0) {
       /* label.style.color = "red"; */
       label.innerText = "Enter a counting number here:";
-        shake();
       result.innerText = "";
+      shake();
     } else if (numOfDivisor === undefined) {
       label.style.color = "black";
       result.innerText = `${x} is not a prime number.
