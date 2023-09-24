@@ -78,6 +78,7 @@ input:active, input:ficus {
 
 button {
     border: solid 1px transparent;
+    margin: 5px 0;
     padding: .1rem;
     border-radius: 0px;
     color: white;
