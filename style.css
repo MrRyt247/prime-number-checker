@@ -68,7 +68,7 @@ input {
 
 button {
     border: solid 1px transparent;
-    padding: 1rem;
+    padding: .1rem;
     border-radius: 10px;
     color: white;
     background-color: red;
