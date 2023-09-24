@@ -34,8 +34,8 @@ body {
 
 .banner {
     position: relative;
-    left: -1rem;
-    top: -10px;
+    left: -1.5rem;
+    top: -15px;
     height: 40px;
     width: calc(100% - 2.5rem);
     padding-left: 2rem;
@@ -49,7 +49,7 @@ body {
 
 label {
     font-size: .95rem;
-    animation: shake 2s;
+    animation: shake 1s;
 }
 
 input {
@@ -103,7 +103,7 @@ button:hover {
 }
 
 .shake {
-    animation: shake 2s;
+    animation: shake 1s;
 }
 
 @keyframes shake {
@@ -111,16 +111,16 @@ button:hover {
         transform: translateX(0);
     }
     20% {
-        transform: translateX(5px);
+        transform: translateX(-10px);
     }
     40% {
-        transform: translateX(-5px);
+        transform: translateX(-10px);
     }
     60% {
-        transform: translateX(5px);
+        transform: translateX(10px);
     }
     80% {
-        transform: translateX(-5px);
+        transform: translateX(-10px);
     }
     100% {
         transform: translateX(0);
