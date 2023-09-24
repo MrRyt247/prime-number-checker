@@ -49,6 +49,7 @@ body {
 input {
     color: black;
     outline: transparent;
+    background-color: transparent;
     border: none;
     border-bottom: solid 1px black;
     padding: 2px;
