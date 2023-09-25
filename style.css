@@ -34,8 +34,8 @@ body {
 
 .banner {
     position: relative;
-    left: -2.5rem;
-    top: -2rem;
+    left: -2rem;
+    top: -2.5rem;
     height: 40px;
     width: calc(100% - 2.5rem);
     padding-left: 2rem;
