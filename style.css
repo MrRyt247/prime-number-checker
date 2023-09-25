@@ -50,6 +50,19 @@ body {
     font-variant: small-caps;
 }
 
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 1.7rem;
+    height: calc(50px + .25rem);
+    width: 5%;
+    background: darkred;
+    transform: skew(45deg);
+    z-index: -1;
+}
+
+
 label {
     font-size: .9rem;
 }
