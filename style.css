@@ -34,10 +34,11 @@ body {
 
 .banner {
     position: relative;
-    left: -1.7rem;
+    left: -2.5rem;
     top: -2rem;
     height: 40px;
     width: calc(100% - 2.5rem);
+    padding-left: 2rem;
     background-color: red;
     color: #eee;
     display: flex;
