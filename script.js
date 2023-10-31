@@ -12,9 +12,9 @@ function check() {
   }
 
   button.addEventListener('click', () => {
-    document.querySelector(".container").style.border = "solid 3px red";
+    document.querySelector(".container").style.border = "solid 3px #f003";
     setTimeout(() => {
-      document.querySelector(".container").style.border = "solid 3px transparent";
+      document.querySelector(".container").style.border = "solid 1px transparent";
     }, 1005);
   })
 
