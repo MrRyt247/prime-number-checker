@@ -2,6 +2,7 @@ function check() {
   const x = document.getElementById("input").value;
   const result = document.getElementById("log");
   const label = document.querySelector("label");
+  const button = document.querySelector(".button");
 
   function shake() {
       label.style.setProperty("animation", "shake 1s ease-in-out alternate");
@@ -9,6 +10,13 @@ function check() {
         label.style.removeProperty('animation');
       }, 1005);
   }
+
+  button.addEventListener('click', () => {
+    document.querySelector(".container").style.border = "solid 3px red";
+    setTimeout(() => {
+      document.querySelector(".container").style.border = "solid 3px transparent";
+    }, 1005);
+  })
 
   prime = (a) => {
     var divisor = 0;
@@ -22,7 +30,7 @@ function check() {
     }
 
     if (x == null || x <= 0 || x - parseInt(x) !== 0) {
-      label.innerText = "Enter a counting number here:";
+      label.innerText = "Enter a counting number";
       result.innerText = "";
       shake();
     } else if (numOfDivisor === undefined) {
