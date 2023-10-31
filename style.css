@@ -29,7 +29,7 @@ body {
     height: var(--cardHeight);
     width: var(--cardWidth);
     min-width: 216px;
-    border: solid 1px transparent;
+    border: solid 3px transparent;
     border-radius: 0;
     margin-block: auto;
     margin-inline: auto;

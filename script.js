@@ -12,9 +12,9 @@ function check() {
   }
 
   button.addEventListener('click', () => {
-    document.querySelector(".container").style.border = "solid 3px #f003";
+    document.querySelector(".container").style.boxShadow = "var(--cardShadow), 0px 0px 5px 2px #f00";
     setTimeout(() => {
-      document.querySelector(".container").style.border = "solid 1px transparent";
+      document.querySelector(".container").style.boxShadow = "var(--cardShadow)";
     }, 1005);
   })
 
