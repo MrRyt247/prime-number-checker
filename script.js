@@ -1,5 +1,6 @@
 function check() {
   const x = document.getElementById("input").value;
+  const container = document.querySelector(".container");
   const result = document.getElementById("log");
   const label = document.querySelector("label");
   const button = document.querySelector(".button");
@@ -12,9 +13,9 @@ function check() {
   }
 
   button.addEventListener('click', () => {
-    document.querySelector(".container").style.boxShadow = "var(--cardShadow), 0px 0px 5px 2px #f00";
+    container.style.boxShadow = "var(--cardShadow), var(--glowShadow)";
     setTimeout(() => {
-      document.querySelector(".container").style.boxShadow = "var(--cardShadow)";
+      container.style.boxShadow = "var(--cardShadow)";
     }, 1005);
   })
 

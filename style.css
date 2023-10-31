@@ -6,6 +6,7 @@
     --cardHeight: 350px;
     --cardWidth: min(400px, 100% - 4rem);
     --cardShadow: 10px 10px 20px 0px #0003;
+    --glowShadow: 0px 0px 5px 2px red;
     --bannerShadow: 2px 2px 4px #0006;
     --textShadow: 1px 1.5px 3px #0007;
 }
