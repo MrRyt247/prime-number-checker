@@ -6,10 +6,10 @@ function check() {
   const button = document.querySelector(".button");
 
   function shake() {
-      label.style.setProperty("animation", "shake 1s ease-in-out alternate");
-      setTimeout(() => {
-        label.style.removeProperty('animation');
-      }, 1005);
+    label.style.setProperty("animation", "shake 1s ease-in-out alternate");
+    setTimeout(() => {
+      label.style.removeProperty('animation');
+    }, 1005);
   }
 
   button.addEventListener('click', () => {
