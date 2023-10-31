@@ -1,34 +1,42 @@
-@font-face {
-    font-family: Poppins;
-    src: url(fonts/Poppins-Regular.ttf);
+:root {
+    --primary: red;
+    --secondary: darkred;
+    --white: #eee;
+    --lightgray: lightgray;
+    --containerHeight: 350px;
+    --containerWidth: min(400px, 100% - 4rem);
+    --boxShadow: 0 0 15px 3px #0003;
+}
+
+* {
+    margin: 0;
 }
 
 body {
     height: 100vh;
     min-width: 240px;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--lightgray);
     overflow: hidden auto;
-    font-family: Poppins, 'Segoe UI', sans-serif;
-    font-size: 1.125rem;
 }
 
 .container {
-    height: 350px;
-    width: min(400px, 100% - 4rem);
+    height: var(--containerHeight);
+    width: var(--containerWidth);
+    border: solid 3px transparent;
+    border-radius: 0;
+    margin-block: auto;
     margin-inline: auto;
-    border: solid 1px transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-block: auto;
-    margin-inline: auto;
-    border-radius: 0;
-    box-shadow: 0 0 15px 3px #0003;
-    background-color: #eee;
     padding: 1rem;
+    row-gap: 1rem;
+    background-color: var(--white);
+    box-shadow: var(--boxShadow);
     box-sizing: border-box;
 }
 
@@ -39,7 +47,7 @@ body {
     height: 50px;
     width: calc(100% - 2.5rem);
     padding-left: 2rem;
-    background-color: red;
+    background-color: var(--primary);
     color: #eee;
     display: flex;
     flex-direction: column;
@@ -57,7 +65,7 @@ body {
     left: 1.7rem;
     height: calc(50px + .25rem);
     width: 5%;
-    background: darkred;
+    background: var(--secondary);
     transform: skew(45deg);
     z-index: -1;
 }
@@ -94,28 +102,22 @@ input:active, input:focus {
 }
 
 .container p {
-    height: 65px;
+    font-size: 1.125rem;
     font-family: monospace;
     color: red;
     text-align: center;
 }
 
 .button {
-    height: 30px;
+    height: 35px;
     border: solid 1px transparent;
-    margin: 5px 0;
-    padding: .1rem;
     border-radius: 0px;
-    color: white;
     background-color: red;
     cursor: pointer;
-    font-family: cursive;
-    font-weight: 600;
-    font-size: 1.3rem;
 }
 
 img {
-    width: 30px;
+    width: 35px;
     color: white;
 }
 
