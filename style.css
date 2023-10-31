@@ -114,14 +114,19 @@ input:active, input:focus {
     font-size: 1.3rem;
 }
 
+img {
+    width: 30px;
+    color: white;
+}
+
 button:hover {
     cursor: pointer;
 }
 
 #footer {
+    margin-inline: auto;
     font-family: monospace;
-    font-size: 9px;
-    flex-grow: -1;
+    font-size: 10px;
 }
 
 #footer span {
