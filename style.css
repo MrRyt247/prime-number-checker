@@ -23,8 +23,8 @@ body {
     border: solid 1px transparent;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-block: auto;
+    margin-inline: auto;
     border-radius: 0;
     box-shadow: 0 0 15px 3px #0003;
     background-color: #eee;
