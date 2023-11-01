@@ -22,7 +22,6 @@ body {
     min-width: 240px;
     display: flex;
     flex-direction: column;
-    font-family: 'Segoe UI', sans-serif;
     background-color: var(--lightgray);
     overflow: hidden auto;
 }
@@ -58,6 +57,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Junge, Recursive, sans-serif;
+    font-weight: bolder;
     font-variant: small-caps;
     font-size: 1.25rem;
     text-shadow: var(--textShadow);
@@ -84,6 +85,7 @@ body {
 
 label {
     margin-top: 2rem;
+    font-family: Recursive, sans-serif;
     font-size: .9rem;
 }
 
@@ -96,6 +98,7 @@ input {
     border: none;
     border-bottom: solid 1px black;
     padding: 2px;   
+    font-family: Junge, Recursive, sans-serif;
     font-size: 25px;
     text-align: center;
     transition: all 120ms ease-out;
@@ -110,8 +113,8 @@ input:focus {
 }
 
 .card p {
+    font-family: Recursive, sans-serif;
     font-size: 1.125rem;
-    font-family: monospace;
     color: var(--primary);
     text-align: center;
 }
@@ -138,7 +141,7 @@ img {
 #footer {
     margin-block: 0;
     margin-inline: auto;
-    font-family: monospace;
+    font-family: Recursive, monospace;
     font-size: 10px;
     -webkit-user-select: none;
     user-select: none;
