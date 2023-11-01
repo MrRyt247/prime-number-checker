@@ -1,6 +1,6 @@
 function check() {
   const x = document.getElementById("input").value;
-  const container = document.querySelector(".container");
+  const card = document.querySelector(".card");
   const result = document.getElementById("log");
   const label = document.querySelector("label");
   const button = document.querySelector(".button");
@@ -10,14 +10,14 @@ function check() {
     setTimeout(() => {
       label.style.removeProperty('animation');
     }, 1005);
-  }
+  };
 
   button.addEventListener('click', () => {
-    container.style.boxShadow = "var(--cardShadow), var(--glowShadow)";
+    card.style.boxShadow = "var(--cardShadow), var(--glowShadow)";
     setTimeout(() => {
-      container.style.boxShadow = "var(--cardShadow)";
-    }, 1005);
-  })
+      card.style.boxShadow = "var(--cardShadow)";
+    }, 800);
+  });
 
   prime = (a) => {
     var divisor = 0;

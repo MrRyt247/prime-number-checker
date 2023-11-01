@@ -3,8 +3,9 @@
     --secondary: darkred;
     --white: #eee;
     --lightgray: lightgray;
+    --logError: rgb(200, 0, 0);
     --cardHeight: 350px;
-    --cardWidth: min(400px, 100% - 4rem);
+    --cardWidth: min(350px, 100% - 4rem);
     --cardShadow: 10px 10px 20px 0px #0003;
     --glowShadow: 0px 0px 5px 2px red;
     --bannerShadow: 2px 2px 4px #0006;
@@ -26,7 +27,7 @@ body {
     overflow: hidden auto;
 }
 
-.container {
+.card {
     height: var(--cardHeight);
     width: var(--cardWidth);
     min-width: 216px;
@@ -117,6 +118,7 @@ input:focus {
 
 .button {
     height: 35px;
+    width: calc(100% - 1rem);
     border: solid 1px transparent;
     border-radius: 0px;
     background-color: var(--primary);
@@ -125,16 +127,8 @@ input:focus {
     user-select: none;
 }
 
-.button:active .container {
-    border: solid 3px red;
-}
-
 img {
     width: 35px;
-}
-
-button:hover {
-    cursor: pointer;
 }
 
 #footer {
@@ -153,7 +147,7 @@ button:hover {
 @keyframes shake {
     0% {
         transform: translateX(0);
-        color: var(--primary);
+        color: var(--logError);
     }
     20% {
         transform: translateX(5px);
@@ -166,6 +160,6 @@ button:hover {
     }
     80% {
         transform: translateX(-5px);
-        color: var(--primary);
+        color: var(--logError);
     }
 }
