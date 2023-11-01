@@ -109,7 +109,7 @@ input:focus {
     border-bottom: solid 2px var(--primary)
 }
 
-.container p {
+.card p {
     font-size: 1.125rem;
     font-family: monospace;
     color: var(--primary);
@@ -118,9 +118,13 @@ input:focus {
 
 .button {
     height: 35px;
-    width: calc(100% - 1rem);
+    width: calc(100% - 2rem);
     border: solid 1px transparent;
     border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary);
     cursor: pointer;
     -webkit-user-select: none;
